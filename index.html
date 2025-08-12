@@ -6,12 +6,18 @@
     <title>WEATHER WEB APP</title>
     <link rel="icon" type="image/x-icon" href="./img/search.svg" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./scripts/script.js"></script>
   </head>
   <body>
     <nav>
-      <form action="post">
-        <div class="browser">
-          <input required="" placeholder="Search for a city..." type="text" />
+      <form method="post" class="form">
+        <div id="browser">
+          <input
+            id="browser-input"
+            type="text"
+            placeholder="Search for a city..."
+            required=""
+          />
           <button id="sendButton">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path
