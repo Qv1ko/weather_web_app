@@ -12,7 +12,7 @@ nav {
     min-height: 8rem;
 
     form {
-        .browser {
+        #browser {
             width: fit-content;
             height: 40px;
             display: flex;
