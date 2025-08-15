@@ -74,3 +74,19 @@ nav {
         }
     }
 }
+
+main {
+    display: grid;
+
+    #not-found {
+        display: none;
+        justify-content: center;
+
+        #error-message {
+            color: white;
+            background-color: #6e6e6e;
+            border-radius: 4px;
+            padding: 8px 12px;
+        }
+    }
+}
